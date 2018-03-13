@@ -29,3 +29,13 @@ CREATE TABLE pari(
 
 
 );
+
+CREATE TABLE membre(
+  idMembre int(11) auto_increment,
+  nomMembre varchar(50),
+  prenomMembre varchar(50),
+  emailMembre varchar(50),
+  loginMembre varchar(50),
+  mdpMembre varchar(50),
+  PRIMARY KEY (idMembre)
+);
